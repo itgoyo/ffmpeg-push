@@ -70,4 +70,15 @@ ffmpeg -re -f concat -safe 0 -i video.txt -vf "movie=/Users/itgoyo/Downloads/log
 done
 ```
 
+### .txt文本内容
 
+格式如下，位置最好自己`pwd`，然后拼全，我这这只放在了同一个根目录下
+
+```
+file 'magic_video1.mp4'
+file 'magic_video2.mp4'
+file 'magic_video3.mp4'
+file 'magic_video4.mp4'
+file 'magic_video5.mp4'
+file 'magic_video6.mp4'
+```
