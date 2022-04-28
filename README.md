@@ -37,7 +37,7 @@ while true
 
 do
 
-ffmpeg -re -f concat -safe 0 -i video.txt -vcodec copy -acodec copy -f flv "rtmp://live-push.bilivideo.com/live-bvc/?streamname=live_12767066_6265400&key=0c32218670c24b8ea4bb89e45d14b6c2&schedule=rtmp&pflag=1"
+ffmpeg -re -f concat -safe 0 -i video.txt -vcodec copy -acodec copy -f flv "rtmp://live-push.bilivideo.com/live-bvc/?streamname=live_1276706key=0c32218670c24b8ea4bb8e45d1edule=rtmp&pflag=1"
 
 done
 ```
